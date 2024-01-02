@@ -5,7 +5,7 @@ import { loadFireworksPreset } from "tsparticles-preset-fireworks";
 import Countdown from "react-countdown";
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(["Menunggu Tahun Baru 2024"])
+  const [newYearMessage, setNewYearMessage] = useState(["Menunggu Tahun Baru 2025"])
 
   const particlesInitialization = async (engine) => {
     await loadFireworksPreset(engine);
